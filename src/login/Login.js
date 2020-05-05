@@ -9,6 +9,7 @@ class Login extends Component {
   constructor(props) {
     super(props);
     this.state = {}
+    console.log(props);
  }
  
  handleSubmit = (event) => {
